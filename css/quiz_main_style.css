@@ -46,7 +46,7 @@ h1 {
     transition-property: all;
 }
 
-Qbutton {
+.Qbutton: {
     position: relative;
     float:right;
 }
@@ -91,6 +91,7 @@ ul:hover {
     color: #C6EE30;
     transition: 0.6s;
     transition-property: all;
+    
 }
 
 #prev {
@@ -111,4 +112,8 @@ ul:hover {
 .titleTxt h1 {
    color: aqua;
     font-size: 12px;
+}
+
+.radioList:hover {
+    cursor: pointer;
 }
